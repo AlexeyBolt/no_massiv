@@ -1,7 +1,7 @@
 ﻿double[,] array = new Double[2, 2];
 FillArray(array);
 PrintArray(array);
-CrossPoint(array);
+Koordinaty(array);
 
 
 void PrintArray(double[,] matrixArray)
@@ -34,7 +34,7 @@ void FillArray(double[,] matrixArray)
     }
 }
 
-void CrossPoint(double[,] matrixArray)
+void Koordinaty(double[,] matrixArray)
 {
   
     double x = (matrixArray[0, 1] - matrixArray[0, 0]) / (matrixArray[1, 0] - matrixArray[1, 1]);
